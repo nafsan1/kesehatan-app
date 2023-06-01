@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">vascomm</string>
+    <string name="hai_selamat_datang">Hai, <b>Selamat Datang</b></string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="search">Search</string>
+</resources>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="title">
+        <item name="android:fontFamily">@font/gilroy_regular</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textSize">28sp</item>
+    </style>
+
+    <style name="normal_text">
+        <item name="android:fontFamily">@font/gilroy_regular</item>
+        <item name="android:textColor">@color/light_blue</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="normal_text_white">
+        <item name="android:fontFamily">@font/gilroy_regular</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="dark_gray_text_14sp">
+        <item name="android:fontFamily">@font/gilroy_regular</item>
+        <item name="android:textColor">@color/dark_gray</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="dark_gray_text">
+        <item name="android:fontFamily">@font/gilroy_regular</item>
+        <item name="android:textColor">@color/dark_gray</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">-0.03</item>
+    </style>
+
+    <style name="bold_text">
+        <item name="android:fontFamily">@font/gilroy_semibold</item>
+        <item name="android:textColor">@color/light_blue</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="normal_text_16sp">
+        <item name="android:fontFamily">@font/gilroy_semibold</item>
+        <item name="android:textColor">@color/purple_500</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="bold_text_14sp">
+        <item name="android:fontFamily">@font/gilroy_semibold</item>
+        <item name="android:textColor">@color/light_blue</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="subtitle">
+        <item name="android:fontFamily">@font/gilroy_medium</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="dark_blue_text_18sp">
+        <item name="android:fontFamily">@font/gilroy_medium</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="light_blue_text_14sp">
+        <item name="android:fontFamily">@font/gilroy_medium</item>
+        <item name="android:textColor">@color/light_blue</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="editText">
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:paddingEnd">8dp</item>
+        <item name="android:background">@drawable/bg_edittext</item>
+        <item name="android:gravity">center</item>
+        <item name="singleLine">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/gilroy_medium</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+    <style name="editText_search">
+        <item name="android:background">@drawable/bg_search</item>
+        <item name="android:gravity">left</item>
+        <item name="singleLine">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/gilroy_medium</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+
+    <style name="normal_button">
+        <item name="android:fontFamily">@font/gilroy_semibold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="small_button">
+        <item name="android:fontFamily">@font/gilroy_semibold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="red_button_small">
+        <item name="android:fontFamily">@font/gilroy_semibold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">#EB0004</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="cornerRadius">23dp</item>
+    </style>
+
+    <style name="SubBodyCenterRegularWhite">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:capitalize">characters</item>
+        <item name="android:fontFamily">@font/gilroy_medium</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/white</item>/>
+    </style>
+
+    <style name="ImageStyle_Circle">
+        <item name="cornerSize">50%</item>
+        <item name="cornerFamily">rounded</item>
+    </style>
+
+    <style name="tabLayout_text" parent="TextAppearance.AppCompat">
+        <item name="color">@color/purple_500</item>
+        <item name="fontFamily">@font/gilroy_medium</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="subtitle_14sp">
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:textColor">#002060</item>
+        <item name="fontFamily">@font/gilroy_medium</item>
+    </style>
+
+    <style name="text_white_20sp">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="fontFamily">@font/gilroy_medium</item>
+    </style>
+
+    <style name="text_price">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#FF7200</item>
+        <item name="fontFamily">@font/gilroy_medium</item>
+    </style>
+    <style name="text_stock">
+        <item name="fontFamily">@font/gilroy_medium</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#007025</item>
+    </style>
+
+    <style name="text_blue_14sp">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/blue_profile</item>
+        <item name="fontFamily">@font/gilroy_medium</item>
+    </style>
+
+    <style name="text_gray_info">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#6A6A6A</item>
+        <item name="fontFamily">@font/gilroy_medium</item>
+    </style>
+
+</resources>

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginStart="24dp"
+    tools:context=".view.register.RegisterActivity">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp">
+
+
+            <TextView
+                android:id="@+id/title"
+                style="@style/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="24dp"
+                android:text="@string/hai_selamat_datang"
+                />
+
+            <TextView
+                android:id="@+id/subTitle"
+                style="@style/subtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Silahkan mengisi form register"
+                android:textStyle="bold"
+                android:theme="@style/normal_text"
+                />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/logo_login"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/subTitle" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:orientation="vertical">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/txtNamaDepan"
+                        style="@style/subtitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nama Depan"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                    <EditText
+                        android:id="@+id/edtNamaDepan"
+                        style="@style/editText"
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="36dp"
+                        android:gravity="center_vertical"
+                        android:hint="John"
+                        android:inputType="text"
+                        android:textColor="@color/gray"
+                        app:layout_constraintEnd_toStartOf="@+id/txtNamaBelakang"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/txtNamaDepan" />
+
+                    <TextView
+                        android:id="@+id/txtNamaBelakang"
+                        style="@style/subtitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nama Belakang"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/txtNamaDepan"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <EditText
+                        android:id="@+id/edtNamaBlkng"
+                        style="@style/editText"
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_vertical"
+                        android:hint="Doe"
+                        android:inputType="text"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="@+id/txtNamaBelakang"
+                        app:layout_constraintTop_toBottomOf="@+id/txtNamaDepan" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <TextView
+                    android:id="@+id/txtKtp"
+                    style="@style/subtitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="No. KTP"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/txtNamaDepan"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/edtKtp"
+                    style="@style/editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center_vertical"
+                    android:hint="Masukkan No. KTP anda"
+                    android:inputType="text"
+                    />
+
+                <TextView
+                    android:id="@+id/txtTlpn"
+                    style="@style/subtitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="No. Telpon"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/txtNamaDepan"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/edtTelpon"
+                    style="@style/editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center_vertical"
+                    android:hint="Masukkan No. Telpon"
+                    android:inputType="number"
+                    />
+
+                <TextView
+                    android:id="@+id/txtPassword"
+                    style="@style/subtitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Password"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/txtNamaDepan"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/edtPassword"
+                    style="@style/editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="8dp"
+                    android:drawableEnd="@drawable/ic_eye"
+                    android:gravity="center_vertical"
+                    android:hint="Masukkan assword anda"
+                    android:inputType="textPassword"
+                     />
+
+                <TextView
+                    android:id="@+id/txtConfirmPass"
+                    style="@style/subtitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Konfirmasi Password"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/txtNamaDepan"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/edtConfirmPass"
+                    style="@style/editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="8dp"
+                    android:drawableEnd="@drawable/ic_eye"
+                    android:gravity="center_vertical"
+                    android:hint="Masukkan password anda"
+                    android:inputType="textPassword"
+                     />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/regisBtn"
+                    style="@style/normal_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/mediumButtonHeight"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="24dp"
+                    android:drawableEnd="@drawable/ic_arrow_right"
+                    android:gravity="center"
+                    android:text="Register"
+                    app:cornerRadius="8dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/txtAkun"
+                        style="@style/dark_gray_text_14sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="4dp"
+                        android:gravity="right"
+                        android:text="Sudah punya akun?" />
+
+                    <TextView
+                        android:id="@+id/txtLoginSkrng"
+                        style="@style/bold_text_14sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Login Sekarang" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/txtReserved"
+                    android:drawablePadding="8dp"
+                    style="@style/dark_gray_text"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center"
+                    android:text="SILK. all right reserved."
+                    app:drawableStartCompat="@drawable/ic_copy_right" />
+            </LinearLayout>
+        </LinearLayout>
+</ScrollView>
